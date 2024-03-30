@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    background-color: black;
+    border: 5 solid red;
+    padding: 20px 200px;
+    /* margin: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    display: inline-block;
+    box-shadow: inset 0px 20px 80px rgb(255, 0, 0);
+    text-shadow: 5px 10px 5px rgba(255, 0, 0, 0.356) ;
+    
+}
+h2{
+    color: white;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5000;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+
+}
+header{
+    color: black;
+}
+.button{
+    text-decoration: none;
+    border: 3px solid black;
+    /* margin: 20px; */
+    padding: 5px 20px;
+
+
+}
+.button:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+    transition: 0.4s;
+
+}
+.list{
+    list-style-position: inside;
+    display: block;
+    padding: 10px 50px 20px;
+    background-color: rgba(128, 128, 128, 0.253);
+    text-shadow: 5px 0px 10px rgb(25, 0, 255);
+}
+.nav{
+    display: flex;
+    padding: 10px 20px;
+    list-style: none;
+    background-color: black;
+    
+ }
+ nav ul li a{
+    padding:0px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100px;
+
+ }
+ .para{
+    border: 10px solid black;
+    width: 30vw;
+    height: 20vh;
+    overflow: auto;
+    text-overflow: ellipsis;
+    box-shadow: inset 10px 0px 50px blue;
+ }
+ .para p{
+    color: red;
+    text-shadow: 2px 3px 5px red;
+ }
+ ul{
+    display: inline-block;
+    position: sticky;
+    left: 50vh;
+ }
+ .card{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    background-color: grey;
+    border-radius: 10px;
+
+ }
+ .cardimg img{
+    width: 280px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+
+ }
+ /* .cardimg{
+    overflow: hidden hidden;
+
+    padding: 10px 10px;
+ } */
